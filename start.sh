@@ -5,7 +5,7 @@ CONTAINER_NAME=data-collector
 
 SERVICE_NAME=cowstudio/data-collector
 SERVICE_PORT=3087
-SERVICE_ADDRESS=cowstudio.wayne-lee.cn
+SERVICE_ADDRESS=$(curl -s http://ipecho.net/plain)
 SIDECAR_PORT=4087
 
 # 构建镜像
