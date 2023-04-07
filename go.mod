@@ -3,7 +3,7 @@ module github.com/jlu-cow-studio/data-collector
 go 1.17
 
 require (
-	github.com/jlu-cow-studio/common v0.2.103
+	github.com/jlu-cow-studio/common v0.2.105
 	google.golang.org/grpc v1.54.0
 )
 
